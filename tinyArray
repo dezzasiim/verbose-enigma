@@ -1,0 +1,8 @@
+var guestList = ["Angela", "Jack", "Pam"];
+var userIn = prompt("what your name is?");
+var myBool = guestList.includes(userIn);
+if(myBool == true){
+    alert("you may enter");
+}else{
+    alert("get fucked");
+}
